@@ -1,0 +1,3 @@
+# add file to config_folder/ftdetect to auto set the filtype of neovim buffer
+# example ~/.config/nvim/ftdetect/bash.vim
+au BufRead,BufNewFile *.local/bin/*                set filetype=bash
