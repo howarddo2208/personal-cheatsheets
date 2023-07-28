@@ -1,4 +1,7 @@
 # on firefox, to search in specific collection, add special character at the start of address bar
-# * for bookmarks
-# % for tabs
-# ^ for history
+  * for bookmarks
+  % for tabs
+  ^ for history
+
+# manage profile on firefox, librewolf
+about:profiles
