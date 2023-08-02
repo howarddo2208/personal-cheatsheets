@@ -5,3 +5,7 @@
 
 # manage profile on firefox, librewolf
 about:profiles
+
+# add more search engine
+# control + click on address bar on site that support open search protocol
+https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox#

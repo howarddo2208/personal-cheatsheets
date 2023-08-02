@@ -1,0 +1,17 @@
+# security questions
+just lie and create store fake QA for later use
+
+# when going away from the computer
+lock the screen
+
+# biometrics, fingerprint
+not that secure, many government requires you to forfeit the fingerprint, but not password. So avoid it
+avoid using at airports, protest, etc -> reboot the phone so that it require password only
+
+# phone lock pattern
+do not use it, easy for people to memorize from a single view
+
+# 2FA, 2 factor authentication
+avoid SMS 2FA
+use FOSS 1 time password generator with no sync and connection to internet like andOTP on android
+can use physical authenticator like yubikey or turn an usb into one.

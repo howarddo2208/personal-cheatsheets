@@ -5,3 +5,9 @@ obscure-cmd --with-weird-flags -Qdt # searchable comment keywords
 # print current directory but replace $HOME with ~
 # `dirs` only for zsh
 dirs +0
+
+# remove ads from spotify client (macOS)
+bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Mac/main/install.sh)
+
+# download song with metadata from spotify link
+ytmdl song-name-to-search --spotify-id=song-id 
