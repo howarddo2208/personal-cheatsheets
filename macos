@@ -1,2 +1,5 @@
 # instantly lock the screen
 cmd + ctrl + Q
+
+# show hidden file
+Cmd + shift + .

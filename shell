@@ -11,3 +11,14 @@ bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Mac/main/inst
 
 # download song with metadata from spotify link
 ytmdl song-name-to-search --spotify-id=song-id 
+
+# view metadata of media file -> install mediainfo
+mediainfo file.mp4
+
+# view file/folder size
+du -sh <path>
+
+# script I use to sync 2 photo/pictures folder between drives
+# -a: archive mode, preserves permissions, symlinks, etc. -v: verbose, -h: human readable, --delete: delete extraneous files from destination dirs
+# the result is that /Volumes/howard/pictures will be an exact copy of /Volumes/photos-1/pictures
+rsync -avh --delete /Volumes/photos-1/pictures /Volumes/howard
