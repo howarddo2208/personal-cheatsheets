@@ -2,7 +2,7 @@
 # original idea: https://programming.dev/post/572744
 obscure-cmd --with-weird-flags -Qdt # searchable comment keywords
 
-# print current directory but replace $HOME with ~
+# print current directory but replace $HOME with ~, kinda like pwd
 # `dirs` only for zsh
 dirs +0
 
@@ -22,3 +22,17 @@ du -sh <path>
 # -a: archive mode, preserves permissions, symlinks, etc. -v: verbose, -h: human readable, --delete: delete extraneous files from destination dirs
 # the result is that /Volumes/howard/pictures will be an exact copy of /Volumes/photos-1/pictures
 rsync -avh --delete /Volumes/photos-1/pictures /Volumes/howard
+
+# spoof MAC address to avoid tracking from public wifi, instal spoof-mac
+sudo spoof-mac randomize en0
+
+# download youtube video as mp4
+yt-dlp -f mp4 "https://www.youtube.com/watch?v=video-id"
+
+# delete and shred file, so it can't be recovered later if anyone gets access to your hard drive
+# normal delete permanently on any OS only delete the connection and still leaves the data on the hard drive to be recovered
+bleachbit --shred file/path
+
+# wildcard, i.e `*` is treated differently between zsh and bash
+# e.g `command a.*` can run on bash but on zsh you need to run
+command a.\*
